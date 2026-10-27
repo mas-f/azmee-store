@@ -1,0 +1,1 @@
+Sekarang buatkan halaman detail productnya, dimana halaman detail tersebut menampilkan data informasi detail product, untuk jadi pada tombol lihat product, di arahkan dulu ke detail product, lalu di detail product ini tombolnya diarahkan ke link dari tiktok shopenya. Data detail yang ditampilakan kamu bisa lihat di file DETAIL-PRODUCT.MD. tampilan gunakan skil /impacable 

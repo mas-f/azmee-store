@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-offwhite text-charcoal font-sans;
+  }
+
+  ::selection {
+    @apply bg-coksu-300 text-coksu-950;
+  }
+
+  h1, h2, h3 {
+    @apply font-display;
+  }
+
+  :where(a, button, input, textarea, select, summary):focus-visible {
+    outline: 2px solid theme('colors.coksu.600');
+    outline-offset: 2px;
+  }
+
+  section[id] {
+    scroll-margin-top: 5.5rem;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: theme('colors.coksu.200') transparent;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: theme('colors.coksu.200');
+    border: 2px solid theme('colors.offwhite');
+    border-radius: 9999px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: theme('colors.coksu.300');
+  }
+}
+
+@layer components {
+  .container-content {
+    @apply mx-auto w-full max-w-content px-5 sm:px-6 lg:px-8;
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+
+  .reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .editorial-section {
+    @apply py-20 sm:py-28 lg:py-36;
+  }
+
+  .editorial-heading {
+    @apply font-display text-coksu-950 tracking-tight leading-[0.95];
+  }
+
+  .editorial-body {
+    @apply text-charcoal/70 leading-relaxed;
+  }
+
+  .editorial-accent {
+    @apply text-coksu-600;
+  }
+
+  .editorial-card {
+    @apply bg-white border border-coksu-100/60 rounded-lg;
+  }
+
+  .editorial-divider {
+    @apply w-12 h-px bg-coksu-300;
+  }
+
+  .editorial-lede::first-letter {
+    float: left;
+    margin: 0.08em 0.1em 0 0;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 3.1em;
+    font-weight: 500;
+    line-height: 0.78;
+    color: theme('colors.coksu.900');
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
