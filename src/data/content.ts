@@ -9,14 +9,14 @@ import {
   type LucideIcon,
 } from 'lucide-react';
 
-import kurtaAlfariz from '@/assets/images/02-kurta-34wm.jpg';
-import kurtaAlfariz1 from '@/assets/images/02-kurta-34wm-1.jpg';
-import kurtaAlfariz2 from '@/assets/images/02-kurta-34wm-2.jpg';
-import kurtaAlfariz3 from '@/assets/images/02-kurta-34wm-3.jpg';
-import kurtaAlfariz4 from '@/assets/images/02-kurta-34wm-4.jpg';
-import kurtaAlfariz5 from '@/assets/images/02-kurta-34wm-5.jpg';
-import kurtaAlfariz6 from '@/assets/images/02-kurta-34wm-6.jpg';
-import kurtaAlfariz7 from '@/assets/images/02-kurta-34wm-7.jpg';
+import kurtaAlfariz from '@/assets/images/02-kurta-34wm-1600.jpg';
+import kurtaAlfariz1 from '@/assets/images/02-kurta-34wm-1-1600.jpg';
+import kurtaAlfariz2 from '@/assets/images/02-kurta-34wm-2-1600.jpg';
+import kurtaAlfariz3 from '@/assets/images/02-kurta-34wm-3-1600.jpg';
+import kurtaAlfariz4 from '@/assets/images/02-kurta-34wm-4-1600.jpg';
+import kurtaAlfariz5 from '@/assets/images/02-kurta-34wm-5-1600.jpg';
+import kurtaAlfariz6 from '@/assets/images/02-kurta-34wm-6-1600.jpg';
+import kurtaAlfariz7 from '@/assets/images/02-kurta-34wm-7-1600.jpg';
 import kurtaAlfarizSize from '@/assets/images/02-kurta-34wm-size.webp';
 
 import jallpt from '@/assets/images/03-jallpt.jpeg';
@@ -28,31 +28,31 @@ import jallpt5 from '@/assets/images/03-jallpt-5.jpeg';
 import jallpt6 from '@/assets/images/03-jallpt-6.jpeg';
 import jallptSize from '@/assets/images/03-jallpt-size.webp';
 
-import kurtaHitam from '@/assets/images/04-kurta.jpg';
-import kurtaHitam1 from '@/assets/images/04-kurta-1.jpg';
-import kurtaHitam2 from '@/assets/images/04-kurta-2.jpg';
-import kurtaHitam3 from '@/assets/images/04-kurta-3.jpg';
-import kurtaHitam4 from '@/assets/images/04-kurta-4.jpg';
+import kurtaHitam from '@/assets/images/04-kurta-1600.jpg';
+import kurtaHitam1 from '@/assets/images/04-kurta-1-1600.jpg';
+import kurtaHitam2 from '@/assets/images/04-kurta-2-1600.jpg';
+import kurtaHitam3 from '@/assets/images/04-kurta-3-1600.jpg';
+import kurtaHitam4 from '@/assets/images/04-kurta-4-1600.jpg';
 import kurtaHitamSize from '@/assets/images/04-kurta-size.webp';
 
-import polHitam from '@/assets/images/05-pol.jpg';
+import polHitam from '@/assets/images/05-pol-1600.jpg';
 import polHitamSize from '@/assets/images/05-pol-size.webp';
 
-import lkAbuTua from '@/assets/images/06-LK-ABUTUA.jpg';
+import lkAbuTua from '@/assets/images/06-LK-ABUTUA-1600.jpg';
 import lkAbuTuaSize from '@/assets/images/06-LK-ABUTUA-size.webp';
 
-import jallpo from '@/assets/images/07-jubah-anak-laki-laki-lengan-panjang-polos.jpg';
-import jallpo01 from '@/assets/images/07-jubah-anak-laki-laki-lengan-panjang-polos-01.jpg';
-import jallpo02 from '@/assets/images/07-jubah-anak-laki-laki-lengan-panjang-polos-02.jpg';
-import jallpo03 from '@/assets/images/07-jubah-anak-laki-laki-lengan-panjang-polos-03.jpg';
-import jallpo04 from '@/assets/images/07-jubah-anak-laki-laki-lengan-panjang-polos-04.jpg';
-import jallpo05 from '@/assets/images/07-jubah-anak-laki-laki-lengan-panjang-polos-05.jpg';
-import jallpo06 from '@/assets/images/07-jubah-anak-laki-laki-lengan-panjang-polos-06.jpg';
-import jallpo07 from '@/assets/images/07-jubah-anak-laki-laki-lengan-panjang-polos-07.jpg';
-import jallpo08 from '@/assets/images/07-jubah-anak-laki-laki-lengan-panjang-polos-08.jpg';
-import jallpo09 from '@/assets/images/07-jubah-anak-laki-laki-lengan-panjang-polos-09.jpg';
-import jallpo10 from '@/assets/images/07-jubah-anak-laki-laki-lengan-panjang-polos-10.jpg';
-import jallpo11 from '@/assets/images/07-jubah-anak-laki-laki-lengan-panjang-polos-11.jpg';
+import jallpo from '@/assets/images/07-jubah-anak-laki-laki-lengan-panjang-polos-1600.jpg';
+import jallpo01 from '@/assets/images/07-jubah-anak-laki-laki-lengan-panjang-polos-01-1600.jpg';
+import jallpo02 from '@/assets/images/07-jubah-anak-laki-laki-lengan-panjang-polos-02-1600.jpg';
+import jallpo03 from '@/assets/images/07-jubah-anak-laki-laki-lengan-panjang-polos-03-1600.jpg';
+import jallpo04 from '@/assets/images/07-jubah-anak-laki-laki-lengan-panjang-polos-04-1600.jpg';
+import jallpo05 from '@/assets/images/07-jubah-anak-laki-laki-lengan-panjang-polos-05-1600.jpg';
+import jallpo06 from '@/assets/images/07-jubah-anak-laki-laki-lengan-panjang-polos-06-1600.jpg';
+import jallpo07 from '@/assets/images/07-jubah-anak-laki-laki-lengan-panjang-polos-07-1600.jpg';
+import jallpo08 from '@/assets/images/07-jubah-anak-laki-laki-lengan-panjang-polos-08-1600.jpg';
+import jallpo09 from '@/assets/images/07-jubah-anak-laki-laki-lengan-panjang-polos-09-1600.jpg';
+import jallpo10 from '@/assets/images/07-jubah-anak-laki-laki-lengan-panjang-polos-10-1600.jpg';
+import jallpo11 from '@/assets/images/07-jubah-anak-laki-laki-lengan-panjang-polos-11-1600.jpg';
 import jallpoSize from '@/assets/images/07-jubah-anak-laki-laki-lengan-panjang-polos-size.webp';
 
 export type DescriptionBlock =
@@ -74,6 +74,9 @@ export type SizeChart = {
 export type Product = {
   slug: string;
   name: string;
+  seoTitle: string;
+  metaDescription: string;
+  collectionSlug: string;
   category: string;
   price: string;
   oldPrice?: string;
@@ -129,6 +132,10 @@ export const products: Product[] = [
   {
     slug: 'baju-koko-kurta-pakistan-pria-dewasa',
     name: 'Baju Koko Kurta Pakistan Pria Dewasa',
+    seoTitle: 'Baju Koko Kurta Pakistan Pria | Azmee Store',
+    metaDescription:
+      'Baju koko kurta Pakistan pria dengan lengan 3/4, lis kerah, dan katun Toyobo. Ukuran S–4XL, harga Rp125.120–Rp135.320. Adem dan rapi.',
+    collectionSlug: 'koko-kurta',
     category: 'Koko Kurta Pria',
     price: 'Rp125.120 - Rp135.320',
     oldPrice: 'Rp184.000 - Rp199.000',
@@ -178,6 +185,10 @@ export const products: Product[] = [
   {
     slug: 'jubah-anak-laki-laki-lengan-panjang',
     name: 'Jubah Anak Laki-Laki Lengan Panjang',
+    seoTitle: 'Jubah Anak Laki-Laki Lengan Panjang | Azmee Store',
+    metaDescription:
+      'Jubah anak laki-laki lengan panjang dari Toyobo, ukuran No. 02–14. Ringan, adem, dan nyaman untuk harian atau acara. Harga Rp129.000.',
+    collectionSlug: 'jubah-anak-laki-laki',
     category: 'Jubah Anak',
     price: 'Rp 129.000',
     rating: 4.9,
@@ -223,6 +234,10 @@ export const products: Product[] = [
   {
     slug: 'koko-kurta-pakistan-pria-dewasa-lengan-3-4-polos',
     name: 'Koko Kurta Pakistan Pria Dewasa Lengan 3/4 Polos',
+    seoTitle: 'Koko Kurta Pakistan Pria 3/4 Polos | Azmee Store',
+    metaDescription:
+      'Koko kurta Pakistan pria lengan 3/4 polos, katun Toyobo Fodu, 5 warna. Ukuran S–4XL, harga Rp125.000–Rp139.000. Adem dan tidak mudah kusut.',
+    collectionSlug: 'koko-kurta',
     category: 'Koko Kurta',
     price: 'Rp 125.000 - Rp 139.000',
     oldPrice: 'Rp 179.000',
@@ -268,6 +283,10 @@ export const products: Product[] = [
   {
     slug: 'jubah-pria-dewasa-lengan-panjang-polos-toyobo',
     name: 'Jubah Pria Dewasa Lengan Panjang Polos Toyobo',
+    seoTitle: 'Jubah Pria Dewasa Polos Toyobo | Azmee Store',
+    metaDescription:
+      'Jubah pria dewasa lengan panjang polos dari katun Toyobo. Tiga kantong, ukuran S–XXL, harga Rp190.000. Adem untuk ibadah dan acara.',
+    collectionSlug: 'jubah-pria',
     category: 'Jubah',
     price: 'Rp 190.000',
     oldPrice: 'Rp 269.000',
@@ -310,6 +329,10 @@ export const products: Product[] = [
   {
     slug: 'jubah-pria-dewasa-lis-kerah-lengan-panjang-katun-toyobo',
     name: 'Jubah Pria Dewasa Lis Kerah Lengan Panjang Katun Toyobo',
+    seoTitle: 'Jubah Pria Lis Kerah Katun Toyobo | Azmee Store',
+    metaDescription:
+      'Jubah pria dewasa lengan panjang dengan lis kerah dan katun Toyobo. Tiga kantong, ukuran S–XXL, harga Rp190.000. Rapi dan nyaman.',
+    collectionSlug: 'jubah-pria',
     category: 'Jubah',
     price: 'Rp 190.000',
     rating: 4.9,
@@ -351,6 +374,10 @@ export const products: Product[] = [
   {
     slug: 'jubah-gamis-muslim-anak-laki-laki-lengan-panjang-polos',
     name: 'Jubah Gamis Muslim Anak Laki-laki Lengan Panjang Polos',
+    seoTitle: 'Jubah Gamis Anak Laki-Laki Polos | Azmee Store',
+    metaDescription:
+      'Jubah gamis anak laki-laki lengan panjang polos, Toyobo Fodu Ori. Ukuran No. 08–14 untuk usia 8–15 tahun. Harga Rp129.000.',
+    collectionSlug: 'jubah-gamis-anak',
     category: 'Jubah Anak',
     price: 'Rp 129.000',
     rating: 4.9,

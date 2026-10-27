@@ -4,8 +4,12 @@ import { Link } from '@/lib/router';
 import logo from '@/assets/images/logo.webp';
 
 const nav = [
-  { label: 'Home', href: '/#home' },
+  { label: 'Beranda', href: '/#home' },
   { label: 'Koleksi', href: '/#koleksi' },
+  { label: 'Baju Koko', href: '/koleksi/baju-koko-pria' },
+  { label: 'Koko Kurta', href: '/koleksi/koko-kurta' },
+  { label: 'Jubah Pria', href: '/koleksi/jubah-pria' },
+  { label: 'Jubah Anak', href: '/koleksi/jubah-anak-laki-laki' },
   { label: 'Tentang Kami', href: '/#tentang' },
   { label: 'FAQ', href: '/#faq' },
   { label: 'Kontak', href: '/#kontak' },
@@ -19,7 +23,12 @@ const customerService = [
   { label: 'Lynk', icon: Link2, href: 'https://lynk.id/hameed8283' },
 ];
 
-const info = ['Kebijakan Privasi', 'Syarat & Ketentuan', 'Kebijakan Pengiriman', 'Kebijakan Pengembalian'];
+const info = [
+  { label: 'Kebijakan Privasi', href: '/kebijakan-privasi' },
+  { label: 'Syarat & Ketentuan', href: '/syarat-ketentuan' },
+  { label: 'Kebijakan Pengiriman', href: '/kebijakan-pengiriman' },
+  { label: 'Kebijakan Pengembalian', href: '/kebijakan-pengembalian' },
+];
 
 export function Footer() {
   return (
@@ -87,13 +96,13 @@ export function Footer() {
             </h3>
             <ul className="mt-5 space-y-3">
               {info.map((item) => (
-                <li key={item}>
-                  <a
-                    href="#"
+                <li key={item.href}>
+                  <Link
+                    to={item.href}
                     className="text-sm text-cream/65 transition-colors hover:text-cream"
                   >
-                    {item}
-                  </a>
+                    {item.label}
+                  </Link>
                 </li>
               ))}
             </ul>
