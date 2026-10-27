@@ -50,6 +50,7 @@ export function ProductGallery({ images, name }: ProductGalleryProps) {
               alt={index === 0 ? name : `${name} — foto ${index + 1}`}
               aria-hidden={index !== active}
               loading={index === 0 ? 'eager' : 'lazy'}
+              fetchpriority={index === 0 ? 'high' : undefined}
               decoding="async"
               width={1200}
               height={1200}
@@ -120,6 +121,8 @@ export function ProductGallery({ images, name }: ProductGalleryProps) {
                 alt=""
                 loading="lazy"
                 decoding="async"
+                width={64}
+                height={80}
                 className="h-full w-full object-cover"
               />
             </button>

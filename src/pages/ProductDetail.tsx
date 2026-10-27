@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { ArrowRight, ArrowUpRight, Check, MessageCircle, ShoppingBag } from 'lucide-react';
+import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { Lightbox } from '@/components/Lightbox';
 import { ProductCard } from '@/components/ProductCatalog';
 import { ProductGallery } from '@/components/ProductGallery';
@@ -14,6 +15,8 @@ import {
   storePromises,
   whatsappUrl,
 } from '@/data/content';
+import { getCollectionForProduct } from '@/data/collections';
+import { collectionPath } from '@/lib/seo';
 import { NotFound } from '@/pages/NotFound';
 
 type ProductDetailProps = {
@@ -56,6 +59,7 @@ export function ProductDetail({ slug }: ProductDetailProps) {
   if (!product) return <NotFound />;
 
   const related = getRelatedProducts(product);
+  const collection = getCollectionForProduct(product);
   const purchaseUrl = product.url ?? whatsappUrl;
 
   const handleSelectSize = (size: string) => {
@@ -72,23 +76,16 @@ export function ProductDetail({ slug }: ProductDetailProps) {
     <>
       <article className="bg-offwhite pb-24 pt-24 lg:pb-0 lg:pt-32">
         <div className="container-content">
-          <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-xs text-charcoal/70">
-            <Link to="/" className="shrink-0 transition-colors hover:text-coksu-800">
-              Beranda
-            </Link>
-            <span aria-hidden="true" className="text-coksu-300">
-              /
-            </span>
-            <Link to="/#koleksi" className="shrink-0 transition-colors hover:text-coksu-800">
-              Koleksi
-            </Link>
-            <span aria-hidden="true" className="text-coksu-300">
-              /
-            </span>
-            <span aria-current="page" className="truncate text-charcoal/75">
-              {product.name}
-            </span>
-          </nav>
+          <Breadcrumbs
+            items={[
+              { label: 'Beranda', to: '/' },
+              { label: 'Koleksi', to: '/#koleksi' },
+              ...(collection
+                ? [{ label: collection.name, to: collectionPath(collection.slug) }]
+                : []),
+              { label: product.name },
+            ]}
+          />
 
           <div className="mt-6 grid gap-10 lg:mt-8 lg:grid-cols-12 lg:gap-12">
             <div className="min-w-0 lg:col-span-7">
@@ -317,10 +314,10 @@ export function ProductDetail({ slug }: ProductDetailProps) {
                 Lengkapi koleksimu
               </h2>
               <Link
-                to="/#koleksi"
+                to={collection ? collectionPath(collection.slug) : '/#koleksi'}
                 className="inline-flex items-center gap-1.5 text-sm font-semibold text-coksu-800 transition-colors hover:text-coksu-600"
               >
-                Semua koleksi
+                {collection ? `Semua ${collection.shortName}` : 'Semua koleksi'}
                 <ArrowRight size={15} strokeWidth={2} />
               </Link>
             </div>

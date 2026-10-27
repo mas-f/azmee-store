@@ -1,45 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://azmee-store.my.id/</loc>
+    <loc>https://www.azmee-store.my.id/</loc>
     <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://azmee-store.my.id/produk/baju-koko-kurta-pakistan-pria-dewasa</loc>
+    <loc>https://www.azmee-store.my.id/koleksi/baju-koko-pria</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.azmee-store.my.id/koleksi/koko-kurta</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.azmee-store.my.id/koleksi/jubah-pria</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.azmee-store.my.id/koleksi/jubah-anak-laki-laki</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.azmee-store.my.id/koleksi/jubah-gamis-anak</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.azmee-store.my.id/koleksi/baju-muslim-pria</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.azmee-store.my.id/produk/baju-koko-kurta-pakistan-pria-dewasa</loc>
     <lastmod>2026-10-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://azmee-store.my.id/produk/jubah-anak-laki-laki-lengan-panjang</loc>
+    <loc>https://www.azmee-store.my.id/produk/jubah-anak-laki-laki-lengan-panjang</loc>
     <lastmod>2026-10-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://azmee-store.my.id/produk/koko-kurta-pakistan-pria-dewasa-lengan-3-4-polos</loc>
+    <loc>https://www.azmee-store.my.id/produk/koko-kurta-pakistan-pria-dewasa-lengan-3-4-polos</loc>
     <lastmod>2026-10-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://azmee-store.my.id/produk/jubah-pria-dewasa-lengan-panjang-polos-toyobo</loc>
+    <loc>https://www.azmee-store.my.id/produk/jubah-pria-dewasa-lengan-panjang-polos-toyobo</loc>
     <lastmod>2026-10-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://azmee-store.my.id/produk/jubah-pria-dewasa-lis-kerah-lengan-panjang-katun-toyobo</loc>
+    <loc>https://www.azmee-store.my.id/produk/jubah-pria-dewasa-lis-kerah-lengan-panjang-katun-toyobo</loc>
     <lastmod>2026-10-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://azmee-store.my.id/produk/jubah-gamis-muslim-anak-laki-laki-lengan-panjang-polos</loc>
+    <loc>https://www.azmee-store.my.id/produk/jubah-gamis-muslim-anak-laki-laki-lengan-panjang-polos</loc>
     <lastmod>2026-10-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.azmee-store.my.id/kebijakan-privasi</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.azmee-store.my.id/syarat-ketentuan</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.azmee-store.my.id/kebijakan-pengiriman</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.azmee-store.my.id/kebijakan-pengembalian</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
 </urlset>

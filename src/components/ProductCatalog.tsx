@@ -2,6 +2,7 @@ import { ArrowRight } from 'lucide-react';
 import { Reveal } from '@/components/Reveal';
 import { StarRating } from '@/components/StarRating';
 import { Link } from '@/lib/router';
+import { collections } from '@/data/collections';
 import { products, type Product } from '@/data/content';
 import { productPath } from '@/lib/seo';
 
@@ -15,6 +16,7 @@ export function ProductCard({ product }: { product: Product }) {
           src={product.image}
           alt={product.alt}
           loading="lazy"
+          decoding="async"
           className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
           width={940}
           height={1175}
@@ -78,15 +80,29 @@ export function ProductCatalog() {
         <div className="mb-12 text-center lg:mb-16">
           <Reveal>
             <h2 className="font-display text-4xl font-medium leading-[0.95] tracking-tight text-coksu-950 sm:text-5xl">
-              Temukan Gaya Muslim
+              Koleksi Baju Koko,
               <br />
-              <span className="italic text-coksu-600">Favoritmu.</span>
+              <span className="italic text-coksu-600">Jubah &amp; Gamis.</span>
             </h2>
           </Reveal>
           <Reveal delay={80}>
-            <p className="mx-auto mt-5 max-w-md text-base leading-relaxed text-charcoal/60">
-              Koleksi pilihan Azmee Store untuk melengkapi penampilan pria dan anak laki-laki.
+            <p className="mx-auto mt-5 max-w-lg text-base leading-relaxed text-charcoal/60">
+              Pilih baju koko, koko kurta, jubah pria, atau jubah anak laki-laki dari bahan yang
+              adem dan mudah dirawat.
             </p>
+          </Reveal>
+          <Reveal delay={140}>
+            <div className="mt-7 flex flex-wrap justify-center gap-2">
+              {collections.map((collection) => (
+                <Link
+                  key={collection.slug}
+                  to={`/koleksi/${collection.slug}`}
+                  className="rounded-full border border-coksu-300/80 bg-white px-4 py-2 text-xs font-semibold text-coksu-800 transition-colors hover:border-coksu-500 hover:bg-coksu-50"
+                >
+                  {collection.shortName}
+                </Link>
+              ))}
+            </div>
           </Reveal>
         </div>
 

@@ -37,8 +37,8 @@ export function Hero() {
 
           <Reveal delay={160}>
             <p className="mt-6 max-w-sm text-base leading-relaxed text-charcoal/65 sm:text-lg">
-              Fashion muslim pria dan anak dengan bahan yang adem, nyaman, tidak mudah kusut, dan
-              mudah dipakai untuk berbagai momen.
+              Baju koko, koko kurta, jubah pria, dan jubah anak laki-laki dengan bahan yang adem,
+              nyaman, tidak mudah kusut, dan mudah dipakai untuk berbagai momen.
             </p>
           </Reveal>
 
@@ -69,7 +69,7 @@ export function Hero() {
 
         {/* Visual — takes 7 cols on lg, offset slightly */}
         <div className="order-1 lg:order-2 lg:col-span-7 lg:col-start-6">
-          <Reveal className="relative">
+          <div className="relative">
             <div className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-lg bg-coksu-100 shadow-2xl sm:max-w-lg lg:max-w-none">
               <img
                 src={heroPhoto}
@@ -94,7 +94,7 @@ export function Hero() {
                 </div>
               </div>
             </div>
-          </Reveal>
+          </div>
         </div>
       </div>
     </section>
